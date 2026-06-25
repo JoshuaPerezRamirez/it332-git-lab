@@ -1,0 +1,46 @@
+=== IT332 MT3 Git Lab Submission ===
+=== Student:
+JoshuaPerezRamirez
+
+=== git remote -v ===
+origin	https://github.com/JoshuaPerezRamirez/it332-git-lab.git (fetch)
+origin	https://github.com/JoshuaPerezRamirez/it332-git-lab.git (push)
+
+=== Full commit log ===
+
+=== Final README.md ===
+My First Git remote lab
+Line added by teammate
+<<<<<<< HEAD
+CONFLICT: my version
+=======
+CONFLICT: teammate version
+>>>>>>> 82f0fc7c684e18e602f4a0b6b1e1bd26b6af9931
+
+=== Final feature.txt ===
+feature line 3
+opps mistake
+
+=== git status ===
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+No commands done.
+Next commands to do (3 remaining commands):
+   pick 74a8ee6 # Add feature line 1
+   pick 6a6ed52 # Add feature line 2
+  (use "git rebase --edit-todo" to view and edit)
+You are currently editing a commit while rebasing branch 'main' on '2f636b5'.
+  (use "git commit --amend" to amend the current commit)
+  (use "git rebase --continue" once you are satisfied with your changes)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   feature.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	mt3_git_output.txt
+	notes.txt
+
